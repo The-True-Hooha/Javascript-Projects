@@ -3,14 +3,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(images/toa-heftiba-uKRat_CK080-unsplash.jpg)center/cover no-repeat;
+    background: url(images/background.jpg)center/cover no-repeat;
 }
 
 .images{
     background: orange;
     flex: 0 0 80%;
     min-height: 70vh;
-    background: url("images/tyler-nix-Y1drF0Y3Oe0-unsplash.jpg")center/cover no-repeat;
+    background: url("images/bcg-1.jpg")center/cover no-repeat;
     border-radius: 15px;
     box-shadow: 5px 10px black;
     position: relative;
