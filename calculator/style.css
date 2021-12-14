@@ -19,7 +19,7 @@ body{
     width: 100%;
     font-size: 5rem;
     padding: 0.5rem;
-    background: rgb(41, 41, 56);
+    background: rgb(0, 0, 0);
     color: white;
     border: none;
 }
@@ -38,7 +38,7 @@ button{
 }
 
 button:hover{
-    background: blue;
+    background: skyblue;
 }
 
 .btn-yellow{
