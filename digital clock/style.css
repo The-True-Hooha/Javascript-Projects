@@ -8,7 +8,7 @@ body{
 }
 
 #clock{
-    font-family: monospace;
+    font-family: 'Orbitron', sans-serif;
     font-size: 5rem;
     color: #32cd32;
 }

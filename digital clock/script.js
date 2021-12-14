@@ -1,4 +1,9 @@
-function showTime (){
+
+window.onload = function () {
+    showTime ();
+
+    function showTime (){
+
     let date = new Date();
     let hours = date.getHours();//0-23
     let minutes = date.getMinutes();//0-59
@@ -14,8 +19,14 @@ function showTime (){
     seconds = addZero(seconds)
     document.getElementById("clock").innerHTML = `${hours} : ${minutes} 
     : ${seconds} ${formatHours}`
-
+    };
 }
+
+
+showTime () {
+setInterval (showTime, 1000)
+}
+
 
 function convertFormat (time) {
     let format = "AM"
@@ -42,7 +53,5 @@ function addZero(time){
     return time
 }
 
-showTime()
-setInterval (showTime, 1000)
 
 //trying to get the clock to actually display, took a break. WILL GET BACK TO IT LATER
